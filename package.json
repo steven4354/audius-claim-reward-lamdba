@@ -9,7 +9,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@audius/libs": "^1.2.118",
+    "@truffle/hdwallet-provider": "^2.1.5",
     "axios": "^1.2.5",
+    "commander": "^10.0.0",
     "web3": "^1.8.1"
   }
 }

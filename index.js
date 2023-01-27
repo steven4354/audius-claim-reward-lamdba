@@ -271,3 +271,17 @@ async function main() {
   }
 }
 
+const run = async () => {
+  return new Promise((resolve, reject) => {
+    const response = {
+      statusCode: 200,
+      isBase64Encoded: true,
+      body: "hello world",
+    };
+
+    console.log("response: " + JSON.stringify(response));
+    return resolve(response);
+  });
+};
+
+module.exports.handler = run;
